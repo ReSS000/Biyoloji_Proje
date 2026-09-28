@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biyoloji Portal - Hücre Organelleri</title>
+    <meta name="description" content="Biyoloji ders konuları ve hücre organelleri tek sitede. Mor tema.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">🧬 Biyoloji Portal</div>
+        <ul class="nav-links">
+            <li><a href="#hero">Ana Sayfa</a></li>
+            <li><a href="#konular">Ders Konuları</a></li>
+            <li><a href="#organeller">Organeller</a></li>
+            <li><a href="#sunum">Sunum</a></li>
+        </ul>
+    </nav>
+
+    <header id="hero" class="hero-section">
+        <div class="hero-content">
+            <span class="badge">9. Sınıf • Biyoloji • Mor Tema</span>
+            <h1>Hangi Konuyu Çalışmak İstiyorsun?</h1>
+            <p>Artık iki ayrı site yok — her şey tek sayfada. Konu seç, aşağı kay ve çalışmaya başla.
+            Şimdilik <strong>Hücre Organelleri</strong> aktif, diğer konular yakında aynı sayfaya eklenecek.</p>
+            <div class="hero-buttons">
+                <a href="#konular" class="cta-btn">Konuları Gör</a>
+                <a href="#organeller" class="cta-btn secondary">Organellere Git →</a>
+            </div>
+        </div>
+        <div class="hero-image-container reveal">
+            <img src="./hucre.jpg" alt="Hücre Genel Görünüm" class="hero-image">
+        </div>
+    </header>
+
+    <section id="konular" class="konular-section">
+        <h2 class="section-title reveal">Ders Konuları</h2>
+        <p class="section-desc reveal">Karta tıkla, sayfa seni ilgili bölüme kaydırır. Yeni konu eklenince buraya kart + aşağıya bölüm ekleyeceğiz.</p>
+
+        <div class="cards-container">
+            <a href="#organeller" class="card active-card reveal">
+                <div class="card-img-wrapper">
+                    <img src="./hucre.jpg" alt="Hücre Organelleri">
+                    <span class="status active">● Yayında</span>
+                </div>
+                <div class="card-content">
+                    <h3>🦠 Hücre Organelleri</h3>
+                    <p>7 organel + PDF sunum. Aşağıdaki bölüme kaydırır.</p>
+                    <span class="go-btn">Bölüme Git →</span>
+                </div>
+            </a>
+
+            <div class="card disabled reveal">
+                <div class="card-img-wrapper placeholder">
+                    <span class="placeholder-emoji">🧫</span>
+                    <span class="status soon">○ Yakında</span>
+                </div>
+                <div class="card-content">
+                    <h3>Hücre Zarı ve Madde Geçişi</h3>
+                    <p>Örnek pasif konu. Eklendiğinde buraya yeni bölüm açılacak.</p>
+                    <span class="go-btn disabled-btn">Hazırlanıyor</span>
+                </div>
+            </div>
+
+            <div class="card disabled reveal">
+                <div class="card-img-wrapper placeholder">
+                    <span class="placeholder-emoji">🌱</span>
+                    <span class="status soon">○ Yakında</span>
+                </div>
+                <div class="card-content">
+                    <h3>Fotosentez ve Solunum</h3>
+                    <p>Örnek pasif konu. Eklendiğinde buraya yeni bölüm açılacak.</p>
+                    <span class="go-btn disabled-btn">Hazırlanıyor</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="organeller" class="organeller-section">
+        <h2 class="section-title reveal">Hücre Organelleri</h2>
+        <div class="cards-container">
+            <div class="card reveal">
+                <div class="card-img-wrapper"><img src="./cekirdek.jpg" alt="Çekirdek"></div>
+                <div class="card-content"><h3>Çekirdek</h3><p>Hücrenin yönetim ve kalıtım merkezidir. DNA'yı barındırır ve bölünme dahil tüm yaşamsal faaliyetleri yönetir.</p></div>
+            </div>
+            <div class="card reveal">
+                <div class="card-img-wrapper"><img src="./endoplazmik_retikulum.jpg" alt="Endoplazmik Retikulum"></div>
+                <div class="card-content"><h3>Endoplazmik Retikulum</h3><p>Hücre içi madde taşıma ve iletim ağını oluşturur. Çekirdek zarı ile hücre zarı arasında uzanır.</p></div>
+            </div>
+            <div class="card reveal">
+                <div class="card-img-wrapper"><img src="./golgi_cisimcigi.jpg" alt="Golgi Cisimciği"></div>
+                <div class="card-content"><h3>Golgi Cisimciği</h3><p>Salgı üretim ve paketleme merkezidir. Maddeleri veziküller halinde gideceği yere gönderir.</p></div>
+            </div>
+            <div class="card reveal">
+                <div class="card-img-wrapper"><img src="./koful.jpg" alt="Koful"></div>
+                <div class="card-content"><h3>Koful</h3><p>Depo organelidir. Besin, atık ve su depolar. Bitkide büyük ve az, hayvanda küçük ve çoktur.</p></div>
+            </div>
+            <div class="card reveal">
+                <div class="card-img-wrapper"><img src="./lizozom.jpg" alt="Lizozom"></div>
+                <div class="card-content"><h3>Lizozom</h3><p>Hücre içi sindirim organelidir. Güçlü enzimlerle büyük molekülleri parçalar.</p></div>
+            </div>
+            <div class="card reveal">
+                <div class="card-img-wrapper"><img src="./mitokondri.jpg" alt="Mitokondri"></div>
+                <div class="card-content"><h3>Mitokondri</h3><p>Enerji santralidir. Oksijenli solunumla ATP üretir.</p></div>
+            </div>
+            <div class="card reveal">
+                <div class="card-img-wrapper"><img src="./ribozom.jpg.png" alt="Ribozom"></div>
+                <div class="card-content"><h3>Ribozom</h3><p>Protein sentez fabrikasıdır. Tüm canlılarda bulunur, zarsızdır.</p></div>
+            </div>
+        </div>
+    </section>
+
+    <section id="sunum" class="presentation-section reveal">
+        <h2 class="section-title">Detaylı Biyoloji Sunumu</h2>
+        <p class="presentation-desc">Hücre yapısı hakkında daha detaylı bilgi için PDF sunumu incele.</p>
+        <div class="pdf-container">
+            <embed src="./Biyoloji_Sunum.pdf" type="application/pdf" width="100%" height="600px" />
+        </div>
+        <div class="download-link">
+            <a href="./Biyoloji_Sunum.pdf" download class="cta-btn secondary">PDF Olarak İndir</a>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <h3>Kaynakça</h3>
+            <ul>
+                <li>MEB Biyoloji Ders Kitapları</li>
+                <li>Campbell Biology ve eğitim makaleleri</li>
+            </ul>
+            <p class="copyright">Resul Özüş 9/A BMTAL • Tek Sayfalık Birleşik Portal</p>
+        </div>
+    </footer>
+
+    <script src="./script.js"></script>
+</body>
+</html>
